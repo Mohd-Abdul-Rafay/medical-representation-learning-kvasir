@@ -181,5 +181,5 @@ If this work is useful in your research, please cite:
   author  = {Abdul Rafay Mohd},
   title   = {Small Object Detection in Dense UAV Imagery: Structured Ablation of YOLOv8-L},
   year    = {2025},
-  url     = {https://github.com/Mohd-Abdul-Rafay/small-object-detection-visdrone}
+  url     = {https://github.com/Mohd-Abdul-Rafay/medical-representation-learning-kvasir}
 }
