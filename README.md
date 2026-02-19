@@ -141,10 +141,6 @@ medical-representation-learning-kvasir/
 ├── results/
 │   └── supervised_vs_simclr_comparison.png
 │
-├── configs/
-│
-├── assets/
-│
 ├── requirements.txt
 ├── LICENSE
 └── README.md
