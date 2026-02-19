@@ -24,7 +24,7 @@ All experiments were conducted under controlled preprocessing and training condi
 
 **Kvasir v2** — A multi-class gastrointestinal endoscopy image dataset.
 
-- Dataset source: https://www.kaggle.com/datasets/csimoiu/kvasir-v2
+- Dataset source: https://www.kaggle.com/datasets/plhalvorsen/kvasir-v2-a-gastrointestinal-tract-dataset
 - Total classes: 8 GI findings
 - Images resized to 224×224
 - ImageNet normalization applied
@@ -156,3 +156,30 @@ pip install -r requirements.txt
 •	All experiments use fixed preprocessing and identical splits.
 •	Results reported are from held-out test data.
 •	SimCLR pretraining duration was intentionally limited to evaluate short-horizon SSL behavior.
+
+---
+
+## Author
+
+**Abdul Rafay Mohd**  
+Artificial Intelligence | Medical AI | Computer Vision 
+
+---
+
+## License
+
+This project is licensed under the terms of the [MIT License](LICENSE).
+
+---
+
+## Citation
+
+If this work is useful in your research, please cite:
+
+```bibtex
+@software{rafay2025smallobject,
+  author  = {Abdul Rafay Mohd},
+  title   = {Small Object Detection in Dense UAV Imagery: Structured Ablation of YOLOv8-L},
+  year    = {2025},
+  url     = {https://github.com/Mohd-Abdul-Rafay/small-object-detection-visdrone}
+}
