@@ -18,19 +18,19 @@ Benchmarked approaches:
 
 ---
 
-## Role & Contribution
+## Contributions
 
-This project was developed as part of a 2-person team.
+**Abdul Rafay Mohd**
+- Designed and implemented supervised benchmarking pipeline
+- Implemented SimCLR pretraining and fine-tuning workflow
+- Developed stratified 64/16/20 split protocol
+- Built unified evaluation pipeline (Accuracy, Macro F1, ROC, PR)
+- Executed controlled cross-architecture comparisons
 
-I served as the core model developer and was responsible for:
-
-- Designing and implementing the full supervised benchmarking pipeline
-- Implementing SimCLR contrastive pretraining and fine-tuning workflow
-- Creating stratified 64/16/20 data splits
-- Developing evaluation metrics (Accuracy, Macro F1, ROC/PR analysis)
-- Running controlled experimental comparisons across architectures
-
-My teammate contributed to analysis documentation and presentation preparation.
+**Ziya Mubeen Ahmed Mohammed**
+- Experimental result analysis and interpretation
+- Comparative performance reporting
+- Documentation and presentation development
 
 ---
 
@@ -180,10 +180,10 @@ pip install -r requirements.txt
 
 ---
 
-## Author
+## Authors
 
-**Abdul Rafay Mohd**  
-Artificial Intelligence | Medical AI | Computer Vision 
+- **Abdul Rafay Mohd**
+- **Ziya Mubeen Ahmed Mohammed**
 
 ---
 
@@ -199,8 +199,9 @@ If this work is useful in your research, please cite:
 
 ```bibtex
 @software{rafay2026medicalrepresentation,
-  author  = {Abdul Rafay Mohd},
+  author  = {Abdul Rafay Mohd and Ziya Mubeen Ahmed Mohammed},
   title   = {Representation Learning Trade-offs in Gastrointestinal Endoscopy Imaging (Kvasir v2)},
   year    = {2026},
   url     = {https://github.com/Mohd-Abdul-Rafay/medical-representation-learning-kvasir}
 }
+```
