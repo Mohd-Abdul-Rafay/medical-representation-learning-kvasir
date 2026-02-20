@@ -18,6 +18,22 @@ Benchmarked approaches:
 
 ---
 
+## Role & Contribution
+
+This project was developed as part of a 2-person team.
+
+I served as the core model developer and was responsible for:
+
+- Designing and implementing the full supervised benchmarking pipeline
+- Implementing SimCLR contrastive pretraining and fine-tuning workflow
+- Creating stratified 64/16/20 data splits
+- Developing evaluation metrics (Accuracy, Macro F1, ROC/PR analysis)
+- Running controlled experimental comparisons across architectures
+
+My teammate contributed to analysis documentation and presentation preparation.
+
+---
+
 ## Dataset
 
 **Kvasir v2 — A Gastrointestinal Tract Endoscopy Dataset**
