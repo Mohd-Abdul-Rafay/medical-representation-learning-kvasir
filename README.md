@@ -1,22 +1,20 @@
 # Representation Learning Trade-offs in Gastrointestinal Endoscopy Imaging (Kvasir v2)
 
-A structured experimental comparison of supervised transfer learning and contrastive self-supervised pretraining (SimCLR) on gastrointestinal endoscopy images.
+A controlled experimental study comparing supervised transfer learning and contrastive self-supervised pretraining (SimCLR) for gastrointestinal endoscopy image classification.
 
-This repository focuses on quantitative evaluation, controlled experimental design, and critical analysis of representation learning strategies in medical computer vision.
+This repository emphasizes quantitative evaluation, reproducibility, and critical analysis of representation learning strategies in medical computer vision.
 
 ---
 
 ## Overview
 
-This study evaluates how different representation learning paradigms perform on the Kvasir v2 gastrointestinal endoscopy dataset.
+This study evaluates representation learning paradigms on the Kvasir v2 dataset under identical preprocessing, data splits, and optimization settings to isolate architectural and training effects.
 
-We benchmark:
+Benchmarked approaches:
 
-- Supervised transfer learning (ResNet50, EfficientNet-B0, ViT-B/16)
-- Contrastive self-supervised pretraining (SimCLR)
-- An exploratory feature-injected segmentation prototype (U-Net variant)
-
-All comparisons were performed under identical preprocessing, splits, and optimization settings to isolate the impact of representation strategy.
+- **Supervised transfer learning** (ResNet50, EfficientNet-B0, ViT-B/16)
+- **Contrastive self-supervised pretraining** (SimCLR)
+- **Exploratory feature-injected segmentation prototype** (U-Net variant)
 
 ---
 
